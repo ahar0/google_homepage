@@ -11,17 +11,9 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 272px;
 }
-.search {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  height: 30px;
-  border-radius: 25px;
-  padding:
-}
+
 
 .top {
   display: block;
@@ -36,32 +28,55 @@ p {
   font-size: 14px;
 }
 
-#button1{
-width: 150px;
-height: 30px;
-font-family: sans-serif;
-font-size: 14px;
-
-}
-#button2{
-width: 150px;
-height: 30px;
-font-family: sans-serif;
-font-size: 14px;
+.btn-light {
+  padding:
 }
 
-.my-button {
-    display: inline-block;
-    margin: 5px;
-    font-size: 1.5em;
-    font-family: serif;
-    font-style: italic;
-    padding: 8px 16px; /* space around text */
-    -moz-transition: all 0.2s;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
+#button1 {
+  padding:
+  width: 15em;
+  height:
 }
-.my-button:hover {
-    background: #666;
-    color: #c1e1e0;
+
+#button2 {
+  padding:
+  width: 15em;
+  height:
+}
+
+#buttons {
+    margin-top: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+#buttons :first-child {
+    float: none;
+}
+#buttons :nth-child(2) {
+    float: none;
+}
+button  {
+    padding: 10px 25px;
+  }
+  .searchbar {
+      position: relative;
+  }
+
+  .searchbar img {
+      position: relative;
+      top: 20px;
+      left: 20px;
+  }
+.search-pic {
+  width: 2em;
+}
+
+.search {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 554px;
+  height: 39px;
+  border-radius: 25px;
+  padding:
 }
