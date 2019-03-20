@@ -1,49 +1,78 @@
-h1 {
-  font-size: 40px;
+#navigation1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+#navigation1 li {
+  float: left;
+}
+#navbar2 {
+  float:right
+}
+#navigation1 li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
   font-family: sans-serif;
 }
-
-p {
-  font-size: 24px;
+#navigation1 li a:hover {
+  text-decoration: underline;
 }
-
+.circleimg {
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.square9 {
+  width: 25px;
+   margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.goog {
+ padding-top: 200px;
+  padding-bottom: 300px;
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 272px;
 }
-
-
 .top {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 50em;
   white-space: nowrap;
   overflow: hidden;
   color: #1a0dab;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 14px;
+  text-align: center;
 }
-
 .btn-light {
   padding:
 }
-
 #button1 {
   padding:
   width: 15em;
   height:
 }
-
 #button2 {
   padding:
   width: 15em;
   height:
 }
-
 #buttons {
     margin-top: 8px;
     overflow: hidden;
@@ -58,25 +87,51 @@ p {
 button  {
     padding: 10px 25px;
   }
-  .searchbar {
-      position: relative;
-  }
-
-  .searchbar img {
-      position: relative;
-      top: 20px;
-      left: 20px;
-  }
 .search-pic {
   width: 2em;
 }
-
 .search {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 554px;
-  height: 39px;
+  height: 45px;
   border-radius: 25px;
-  padding:
+  background: white url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) right no-repeat;
+    background-size: 2em;
+    background-position: calc(96% + 10px) calc(100% - 5px);
+  }
+
+
+ul.nav2ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #F0F0F0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+}
+#navigation2 li {
+  float: left;
+
+}
+#navbar4 {
+  float:right
+}
+li a.nav2ul {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: sans-serif;
+
+}
+/* Change the link color to #111 (black) on hover */
+li a.nav2ul:hover {
+  text-decoration: underline;
 }
